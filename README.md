@@ -1,4 +1,4 @@
-#How to use <br/>
+# How to use <br/>
 download the folder then open it in Your code editor open the code editor's terminal then run the command <br/>
 npm run build <br/>
 a folder with the name dist will be created. <br/>
