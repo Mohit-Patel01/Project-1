@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+
+  "name": "Smart Notes",
+  "version": "1.0",
+
+  "description": "Save notes from anywhere, find solution to all of your questions.",
+
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "downloads"
+  ],
+
+  "background": {
+    "service_worker": "serviceWorker.js"
+  }
+}
